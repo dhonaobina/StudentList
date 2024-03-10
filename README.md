@@ -31,3 +31,11 @@
 - method searches the required element in an array. 
 ##### The join() 
 - method joins the array elements. However, these built-in methods will not modify the original array elements.
+##### The push() 
+- method is used to add a new element to the end of the array.
+##### The pop() 
+- method is used to remove the last element from the array.
+##### The shift()
+- method is used to remove the first element from the array.
+##### The unshift()
+- method is use to add new element to the beginning of the array.

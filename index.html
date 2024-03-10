@@ -14,9 +14,18 @@
             <ul id="studentList">
             </ul>
             <p id="txtout"></p>
+            <p style="font-size: 20px; font-weight: 700; margin-left: 10px">Enter item: <input type="text" class="txtinput" name="inputText" id="inputText"/></p>
             <p>
-                <input type="button" name="Display List" value="Display List" onclick="dispList()" />
-                <input type="button" name="Clear" value="Clear List" onclick="clrList()"/>
+                <input type="button" onclick="dispList()" name="Display List" value="Display List"  />
+                <input type="button" onclick="clrList()" name="Clear" value="Clear List" />
+                <input type="button" onclick="addItemtoStart()" name="Add Item to Start" value="Add Item to Start" />
+                <input type="button" onclick="addItemtoEnd()" name="Add Item to End" value="Add Item to End" />
+                <input type="button" onclick="srtList()" name="Sort List" value="Sort List" />
+                <input type="button" onclick="reverseList()" name="Reverse List" value="Reverse List" />
+                <input type="button" onclick="removeItemfromStart()" name="Remove Item from Start" value="Remove Item from Start" />
+                <input type="button" onclick="removeItemfromEnd()" name="Remove Item from End" value="Remove Item from End" />
+                <input type="button" onclick="searchList()" name="Search List" value="Search List" />
+                <input type="button" onclick="joinList()" name="Join List" value="Join List" />
             </p>
         </div>
         <script src="script.js" async defer></script>
