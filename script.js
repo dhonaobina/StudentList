@@ -22,3 +22,13 @@ function clrList()
         element.removeChild(lis[0]);
     }
 }
+
+var markListArray = [["English", "Maths", "Science", "Computer", "Robotics"], [78,97,87,96,99]];
+var markTable = document.getElementById("markList");
+for (var i=0, row; row=markTable.rows[i]; i++)
+{
+    for (var j = 0, col; col=row.cells[j]; j++)
+    {
+        col.innerText = markListArray[i][j];
+    }
+}
