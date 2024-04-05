@@ -1,3 +1,6 @@
+
+![image](https://github.com/dhonaobina/StudentList/assets/113093370/913e099d-ff12-40e9-b340-b5a3d671a2aa)
+
 # Creating Arrays
 - A variable declared in JavaScript can store a single value, but what if you want to store multiple values in a single variable? Well, you may have to use an array.
 - In JavaScript, an array can store multiple values at a time. There are two types of arrays, single-dimensional and multi-dimensional.
